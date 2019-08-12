@@ -5,7 +5,9 @@ A quick HTTP stress tester. This allows you to choose how many goroutines are sp
 1. Build
 `go build main.go`
 2. Run
-`./a.out {target} {# of threads}`
+	- Linux: `./main {target} {# of threads}`
+	- Windows: `main.exe {target} {# of threads}`
+	- NOTE: target variable should be a url, # of threads should be an integer
 
 # Features
 1. Easy-To-Use
