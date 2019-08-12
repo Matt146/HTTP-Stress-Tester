@@ -1,8 +1,13 @@
 # HTTP-Stress-Tester
-A quick HTTP stress tester. If your server can handle multiple instances of this, then it is most likely very beefy.
+A quick HTTP stress tester. This allows you to choose how many goroutines are spamming GET requests to a specific path on a server.
 
 # Usage
 1. Build
-`go build golang-requestpacker.go`
+`go build main.go`
 2. Run
-`./a.out {target}`
+`./a.out {target} {# of threads}`
+
+# Features
+1. Easy-To-Use
+2. Allows you to choose the number of goroutines attacking a server
+3. Shows real-time statistics on command line
