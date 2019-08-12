@@ -15,4 +15,4 @@ A quick HTTP stress tester. This allows you to choose how many goroutines are sp
 3. Shows real-time statistics on command line
 
 # Screenshot
-![Alt text](/master/screenshot.png "")
+![Screenshot Demo](https://raw.githubusercontent.com/Matt146/HTTP-Stress-Tester/master/screenshot.png, "")
